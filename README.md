@@ -1,7 +1,7 @@
 # Meme Studio (React + Vite)
 
 A responsive meme generator built with React and Vite.  
-Create memes with live preview, templates, custom text styling, and quick randomization. Done My 2 year Info 2310 Project 1
+Create memes with live preview, templates, custom text styling, and quick randomization. Done My 2 year Info 2310 Project 
 
 ## Features
 
@@ -40,4 +40,16 @@ npm run preview
 - index.html — app entry HTML
 - vite.config.js — Vite config
 - eslint.config.js — lint config
+
+## Deploy to Vercel
+
+1) Push this project to GitHub.
+
+2) In Vercel, click **Add New... → Project** and import this repository.
+
+3) Keep the default settings (Vite framework). The project also includes `vercel.json` with:
+- Build command: `npm run build`
+- Output directory: `dist`
+
+4) Click **Deploy**.
 
